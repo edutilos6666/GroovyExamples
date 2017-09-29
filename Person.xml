@@ -1,0 +1,6 @@
+<Person id = $id>
+<Name>$name</Name>
+<Age>$age</Age>
+<Wage>$wage</Wage>
+<Active>$active</Active>
+</Person>

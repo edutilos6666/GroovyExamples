@@ -18,10 +18,91 @@ class Runner {
 //        testListExample()
 //        testMapExample()
 //        testDateTimeExample()
-        testGenericsExample()
+//        testGenericsExample()
+//        testTraitsExample()
+//        testClosureExample()
+//        testXMLExample()
+//        testJMXExample()
+//        testJSONExample()
+//        testDSLExample()
+//        testDatabaseExample()
+//        testBuildersExample()
+//        testUnitTestExample()
+//        testTemplateEngineExample()
+        testMetaObjectProgrammingExample()
     }
 
 
+    private static void testMetaObjectProgrammingExample() {
+        MetaObjectProgrammingExample runner = new MetaObjectProgrammingExample()
+//        runner.example1()
+//        runner.example2()
+        runner.example3()
+    }
+
+    private static void testTemplateEngineExample()  {
+        TemplateEngineExample runner = new TemplateEngineExample()
+//        runner.example1()
+//        runner.example2()
+//        runner.example3()
+        runner.example4()
+    }
+
+    private static void testUnitTestExample() {
+        UnitTestExample runner = new UnitTestExample()
+        runner.example1()
+    }
+
+
+    private static void testBuildersExample() {
+        BuildersExample runner = new BuildersExample()
+//        runner.example1()
+//        runner.example2()
+//        runner.example3()
+//        runner.example4()
+//        runner.example5()
+        runner.example6()
+    }
+
+    private static void testDatabaseExample() {
+        DatabaseExample runner = new DatabaseExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+    private static void testDSLExample() {
+        DSLExample runner = new DSLExample()
+        runner.example1()
+    }
+
+    private static void testJSONExample()  {
+        JSONExample runner = new JSONExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+    private static void testJMXExample() {
+        JMXExample runner = new JMXExample()
+        runner.example1()
+    }
+
+    private static void testXMLExample() {
+        XMLExample runner = new XMLExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+    private static void testClosureExample() {
+        ClosureExample runner = new ClosureExample()
+//        runner.example1()
+//        runner.example2()
+        runner.example3()
+    }
+
+    private static void testTraitsExample() {
+        TraitsExample runner = new TraitsExample()
+        runner.example1()
+    }
 
     private static void testGenericsExample() {
         GenericsExample runner = new GenericsExample()

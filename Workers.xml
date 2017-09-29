@@ -1,0 +1,26 @@
+<Workers>
+  <Worker id='1'>
+    <Name>foo</Name>
+    <Age>10</Age>
+    <Wage>100.0</Wage>
+    <Active>true</Active>
+  </Worker>
+  <Worker id='2'>
+    <Name>bar</Name>
+    <Age>20</Age>
+    <Wage>200.0</Wage>
+    <Active>false</Active>
+  </Worker>
+  <Worker id='3'>
+    <Name>bim</Name>
+    <Age>30</Age>
+    <Wage>300.0</Wage>
+    <Active>true</Active>
+  </Worker>
+  <Worker id='4'>
+    <Name>pako</Name>
+    <Age>40</Age>
+    <Wage>400.0</Wage>
+    <Active>false</Active>
+  </Worker>
+</Workers>

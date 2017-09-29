@@ -9,10 +9,76 @@ class Runner {
 //        testOperatorsExample()
 //        testLoopsExample()
 //        testDecisionMakingExample()
-        testMethodsExample()
+//        testMethodsExample()
+//        testFileIOExample()
+//        testDefExample()
+//        testNumbersExample()
+//        testStringsExample()
+//        testRangeExample()
+//        testListExample()
+//        testMapExample()
+//        testDateTimeExample()
+        testGenericsExample()
     }
 
 
+
+    private static void testGenericsExample() {
+        GenericsExample runner = new GenericsExample()
+        runner.example1()
+        println()
+        runner.example2()
+    }
+
+    private static void testDateTimeExample() {
+        DateTimeExample runner = new DateTimeExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+    private static void testMapExample() {
+        MapExample runner = new MapExample()
+        runner.example1()
+    }
+
+    private static void testListExample() {
+        ListExample runner = new ListExample()
+        runner.example1()
+    }
+
+
+    private static void testRangeExample() {
+        RangeExample runner = new RangeExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+    private static void testStringsExample() {
+        StringsExample runner = new StringsExample()
+        runner.example1()
+    }
+
+    private static void testNumbersExample() {
+        NumbersExample runner = new NumbersExample()
+//        runner.example1()
+        runner.example2()
+    }
+
+
+    private static void testDefExample()  {
+        def runner = new DefExample()
+        runner.example1()
+    }
+
+
+    private static void testFileIOExample() {
+        FileIOExample runner = new FileIOExample()
+//        runner.example1()
+//        runner.example2()
+//        runner.example3()
+//        runner.example4()
+        runner.example5()
+    }
 
     private static void testMethodsExample() {
         MethodsExample runner = new MethodsExample()
